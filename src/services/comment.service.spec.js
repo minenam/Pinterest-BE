@@ -9,7 +9,6 @@ let commentService = new CommentService();
 commentService.commentRepositiry = mockCommentsReposirory;
 
 describe('Layered Architecture Pattern Comments Service Unit Test', () => {
-
     beforeEach(() => {
         jset.resetAllMocks(); 
     })
@@ -34,4 +33,5 @@ describe('Layered Architecture Pattern Comments Service Unit Test', () => {
 
         
     })
+
 });
