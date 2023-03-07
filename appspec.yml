@@ -14,3 +14,4 @@ permissions:
 hooks:
   AfterInstall:
     - location: ./scripts/after-install.sh
+
